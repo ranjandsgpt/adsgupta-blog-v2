@@ -1,3 +1,4 @@
+export const runtime = "nodejs";
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getSlugs, getPostBySlug } from '@/lib/posts';
